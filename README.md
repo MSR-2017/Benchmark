@@ -5,7 +5,7 @@ The dataset repository for the paper - A Dataset for Dynamic Discovery of Semant
 ## An overview of the dataset
 
 
-| <sub>Functionality</sub> | <sub>History Start</sub> | <sub>History End</sub> | <sub>#Commits</sub> | <sub>#Files Edited</sub> | <sub>#LOC +</sub> | <sub>#LOC -</sub> | <sub>#Test cases</sub> | <sub>Slice Size</sub> | <sub>Reduction \%</sub> |
+| <sub>Functionality</sub> | <sub>History Start</sub> | <sub>History End</sub> | <sub>#Commits</sub> | <sub>#Files Edited</sub> | <sub>#LOC +</sub> | <sub>#LOC -</sub> | <sub>#Test cases</sub> | <sub>Slice Size</sub> | <sub>Reduction %</sub> |
 |:-------------:|--------------:|------------:|---------:|--------------:|-------:|-------:|------------:|-----------:|---:|
 |LANG-825|bae9f7c3|15a51f1d|475|265|27630|11935|2|118|75.16|
 |LANG-839|bae9f7c3|15a51f1d|475|265|27630|11935|2|200|57.89|
