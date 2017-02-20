@@ -7,7 +7,7 @@ The dataset repository for the paper - A Dataset for Dynamic Discovery of Semant
 
 | <sub>Functionality</sub> | <sub>History Start</sub> | <sub>History End</sub> | <sub>#Commits</sub> | <sub>#Files Edited</sub> | <sub>#LOC +</sub> | <sub>#LOC -</sub> | <sub>#Test cases</sub> | <sub>Slice Size</sub> | <sub>Reduction %</sub> |
 |:-------------:|--------------:|------------:|---------:|--------------:|-------:|-------:|------------:|-----------:|---:|
-<sub>|LANG-825|bae9f7c3|15a51f1d|475|265|27630|11935|2|118|75.16|</sub>
+|<sub>LANG-825</sub>|bae9f7c3|15a51f1d|475|265|27630|11935|2|118|75.16|
 |LANG-839|bae9f7c3|15a51f1d|475|265|27630|11935|2|200|57.89|
 |LANG-841|bae9f7c3|15a51f1d|475|265|27630|11935|2|200|57.89|
 |LANG-906|bae9f7c3|15a51f1d|475|265|27630|11935|5|1|99.79|
