@@ -1,0 +1,11 @@
+# CSlicer Project Configuration File
+
+repoPath = /home/polaris/Desktop/msrexamples/calcite/.git
+startCommit = f10ea367
+endCommit = d60f2aa3
+buildScriptPath = /home/polaris/Desktop/msrexamples/calcite-examples/CALCITE-627/comp_test_CALCITE-627.py
+testPath = /home/polaris/Desktop/msrexamples/calcite/core
+daikonConfig = /home/polaris/Desktop/123/example-settings.txt
+daikonJar = /home/polaris/Desktop/daikonparent/daikon-5.2.22/daikon.jar
+chicoryPath = /home/polaris/Desktop/daikonparent/daikon-5.2.22/java/ChicoryPremain.jar
+#excludePaths = pom.xml,src/changes/changes.xml,src/site/resources/download_io.cgi,src/site/site.xml,src/site/xdoc/bestpractices.xml,src/site/xdoc/description.xml,src/site/xdoc/index.xml
