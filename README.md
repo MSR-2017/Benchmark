@@ -1,11 +1,22 @@
-# Benchmark
-The dataset repository for the paper - A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories.
+# A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories
+This repository is for MSR 2017 paper submission - *A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories*.
 
 
-## An overview of the dataset
+## Dataset
+#### Columns in the table:
+>+ **Functionality ID**: The JIRA issue key of the functionality - a unique identifier originally assigned by developers in the JIRA issue tracking system.
+>+ **History Start**: The starting point of the history segment where the functionality was developed. It is the SHA-1 ID of a release commit, which is the closest release version before the functionality was developed.
+>+ **History End**: The ending point of the history segment where the functionality was developed. It is the SHA-1 ID of the closest release version after the functionality was developed.
+>+ **#Commits**: The length of history of developing a functionality.
+>+ **#Files Edited**: The number of files changed during the development of the functionality.
+>+ **#LOC +**: The number of code lines inserted during the development of the functionality.
+>+ **#LOC -**: The number of code lines deleted during the development of the functionality.
+>+ **#Test Cases**: The number of test cases in the associated test suite of the functionality.
+>+ **Slice Size**: The size of the 1-minimal history slice of each functionality, expressed as the number of commits.
+>+ **Reduction %**: *Reduction rate*. It stands for the proportion of the commits unrelated to its implementation.
 
-
-|<sub>Functionality</sub>|<sub>History Start</sub>|<sub>History End</sub>|<sub>#Commits</sub>|<sub>#Files Edited</sub>|<sub>#LOC +</sub>|<sub>#LOC -</sub>|<sub>#Test cases</sub>|<sub>Slice Size</sub>|<sub>Reduction %</sub>| 
+### Table 1. Overview of the Dataset
+|Functionality ID|History Start|History End|#Commits|#Files Edited|#LOC +|#LOC -|#Test cases|Slice Size|Reduction %| 
 |:-------------:|-------------:|-----------:|--------:|-------------:|------:|------:|-----------:|----------:|--:|
 |<sub>LANG-825</sub>|<sub>bae9f7c3</sub>|<sub>15a51f1d</sub>|<sub>475</sub>|<sub>265</sub>|<sub>27630</sub>|<sub>11935</sub>|<sub>2</sub>|<sub>118</sub>|<sub>75.16</sub>|
 |<sub>LANG-839</sub>|<sub>bae9f7c3</sub>|<sub>15a51f1d</sub>|<sub>475</sub>|<sub>265</sub>|<sub>27630</sub>|<sub>11935</sub>|<sub>2</sub>|<sub>200</sub>|<sub>57.89</sub>|
@@ -42,7 +53,7 @@ The dataset repository for the paper - A Dataset for Dynamic Discovery of Semant
 |<sub>MNG-4904</sub>|<sub>b175144</sub>|<sub>308d4d4</sub>|<sub>51</sub>|<sub>78</sub>|<sub>1816</sub>|<sub>713</sub>|<sub>1</sub>|<sub>7</sub>|<sub>86.27</sub>|
 |<sub>MNG-4909</sub>|<sub>b175144</sub>|<sub>308d4d4</sub>|<sub>51</sub>|<sub>78</sub>|<sub>1816</sub>|<sub>713</sub>|<sub>2</sub>|<sub>7</sub>|<sub>86.27</sub>|
 |<sub>MNG-4910</sub>|<sub>b175144</sub>|<sub>308d4d4</sub>|<sub>51</sub>|<sub>78</sub>|<sub>1816</sub>|<sub>713</sub>|<sub>1</sub>|<sub>7</sub>|<sub>86.27</sub>|
-|<sub>MNG-4953</sub>|<sub>38ced22</sub>|<sub>23226</sub>|<sub>47</sub>|<sub>96</sub>|<sub>2448</sub>|<sub>329</sub>|<sub>1</sub>|<sub>6</sub>|<sub>87.23</sub>|
+|<sub>MNG-4953</sub>|<sub>38ced22</sub>|<sub>0023226</sub>|<sub>47</sub>|<sub>96</sub>|<sub>2448</sub>|<sub>329</sub>|<sub>1</sub>|<sub>6</sub>|<sub>87.23</sub>|
 |<sub>MNG-5159</sub>|<sub>089a9f8</sub>|<sub>6d37598</sub>|<sub>120</sub>|<sub>318</sub>|<sub>3003</sub>|<sub>1098</sub>|<sub>4</sub>|<sub>2</sub>|<sub>98.33</sub>|
 |<sub>MNG-5530</sub>|<sub>b7e3ce2</sub>|<sub>ea8b2b0</sub>|<sub>97</sub>|<sub>160</sub>|<sub>4431</sub>|<sub>4144</sub>|<sub>1</sub>|<sub>1</sub>|<sub>98.97</sub>|
 |<sub>MNG-5549</sub>|<sub>b7e3ce2</sub>|<sub>ea8b2b0</sub>|<sub>97</sub>|<sub>160</sub>|<sub>4431</sub>|<sub>4144</sub>|<sub>1</sub>|<sub>13</sub>|<sub>86.6</sub>|
