@@ -2,7 +2,7 @@
 The dataset repository for the paper - A Dataset for Dynamic Discovery of Semantic Changes in Version Controlled Software Histories.
 
 
-## Overview of the Dataset
+## Dataset
 #### Columns in the table:
 >+ **Functionality ID**: The JIRA issue key of the functionality - a unique identifier originally assigned by developers in the JIRA issue tracking system.
 >+ **History Start**: The starting point of the history segment where the functionality was developed. It is the SHA-1 ID of a release commit, which is the closest release version before the functionality was developed.
