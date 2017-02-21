@@ -3,17 +3,17 @@ The dataset repository for the paper - A Dataset for Dynamic Discovery of Semant
 
 
 ## Overview of the Dataset
-##### Columns in the table:
->+ **Functionality ID**: The JIRA issue key of the functionality - a unique identifier originally assigned by developers in the JIRA issue tracking system.
->+ **History Start**: The starting point of the history segment where the functionality was developed. It is the SHA-1 ID of a release commit, which is the closest release version before the functionality was developed.
->+ **History End**: The ending point of the history segment where the functionality was developed. It is the SHA-1 ID of the closest release version after the functionality was developed.
->+ **#Commits**: The length of history of developing a functionality.
->+ **#Files Edited**: The number of files changed during the development of the functionality.
->+ **#LOC +**: The number of code lines inserted during the development of the functionality.
->+ **#LOC -**: The number of code lines deleted during the development of the functionality.
->+ **#Test Cases**: The number of test cases in the associated test suite of the functionality.
->+ **Slice Size**: The size of the 1-minimal history slice of each functionality, expressed as the number of commits.
->+ **Reduction %**: *Reduction rate*. It stands for the proportion of the commits unrelated to its implementation.
+#### Columns in the table:
+>+ ##### **Functionality ID**: The JIRA issue key of the functionality - a unique identifier originally assigned by developers in the JIRA issue tracking system.
+>+ ##### **History Start**: The starting point of the history segment where the functionality was developed. It is the SHA-1 ID of a release commit, which is the closest release version before the functionality was developed.
+>+ ##### **History End**: The ending point of the history segment where the functionality was developed. It is the SHA-1 ID of the closest release version after the functionality was developed.
+>+ ##### **#Commits**: The length of history of developing a functionality.
+>+ ##### **#Files Edited**: The number of files changed during the development of the functionality.
+>+ ##### **#LOC +**: The number of code lines inserted during the development of the functionality.
+>+ ##### **#LOC -**: The number of code lines deleted during the development of the functionality.
+>+ ##### **#Test Cases**: The number of test cases in the associated test suite of the functionality.
+>+ ##### **Slice Size**: The size of the 1-minimal history slice of each functionality, expressed as the number of commits.
+>+ ##### **Reduction %**: *Reduction rate*. It stands for the proportion of the commits unrelated to its implementation.
 
 |<sub>Functionality ID</sub>|<sub>History Start</sub>|<sub>History End</sub>|<sub>#Commits</sub>|<sub>#Files Edited</sub>|<sub>#LOC +</sub>|<sub>#LOC -</sub>|<sub>#Test cases</sub>|<sub>Slice Size</sub>|<sub>Reduction %</sub>| 
 |:-------------:|-------------:|-----------:|--------:|-------------:|------:|------:|-----------:|----------:|--:|
