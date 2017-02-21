@@ -79,4 +79,4 @@ The dataset repository for the paper - A Dataset for Dynamic Discovery of Semant
 |<sub>CONFIGURATION-626</sub>|<sub>89428f1</sub>|<sub>9fb4ad8</sub>|<sub>50</sub>|<sub>34</sub>|<sub>1201</sub>|<sub>655</sub>|<sub>4</sub>|<sub>1</sub>|<sub>98</sub>|
 |<sub>NET-436</sub>|<sub>d8812a3</sub>|<sub>4c3860e</sub>|<sub>77</sub>|<sub>99</sub>|<sub>2357</sub>|<sub>774</sub>|<sub>5</sub>|<sub>7</sub>|<sub>90.9</sub>|
 |<sub>NET-525</sub>|<sub>d483631</sub>|<sub>abd6711</sub>|<sub>269</sub>|<sub>233</sub>|<sub>6845</sub>|<sub>2393</sub>|<sub>14</sub>|<sub>40</sub>|<sub>85.13</sub>|
-|<sub>NET-527</sub>|<sub>d483631</sub>|<sub>abd6711</sub>|<sub>269</sub>|<sub>233</sub>|<sub>6845</sub>|<sub>2393</sub>|<sub>1</sub>|<sub>40</sub>|<sub>85.13</sub>|<sub>
+|<sub>NET-527</sub>|<sub>d483631</sub>|<sub>abd6711</sub>|<sub>269</sub>|<sub>233</sub>|<sub>6845</sub>|<sub>2393</sub>|<sub>1</sub>|<sub>40</sub>|<sub>85.13</sub>|
