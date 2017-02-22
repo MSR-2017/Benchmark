@@ -8,5 +8,5 @@ DeltaPartitioner is a software version history partitioning tool for Java projec
 1. Download delta_partitioner.jar.
 2. Write a simple configuration file. Please refer to the template we provide in this directory.
 3. Write a simple python script, providing the commands of compiling source code and executing test cases. Please refer to the template we provide in this directory.
-2. run the command `java -jar delta_partitioner.jar -c /path/configuration_file_name -e delta`
+2. Run the command `java -jar delta_partitioner.jar -c /path/configuration_file_name -e delta`
 3. Go to the end of the output. The 1-minimal semantic history slice can be found at the lines starting with "H\*".  
